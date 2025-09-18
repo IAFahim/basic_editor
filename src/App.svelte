@@ -92,13 +92,13 @@
             </div>
 
             <div class="editor-container" data-pane="html">
-                <div id="ed_html" class="editor"></div>
+                <textarea id="ed_html" class="editor" placeholder="HTML code goes here..."></textarea>
             </div>
             <div class="editor-container" data-pane="css" hidden>
-                <div id="ed_css" class="editor"></div>
+                <textarea id="ed_css" class="editor" placeholder="CSS code goes here..."></textarea>
             </div>
             <div class="editor-container" data-pane="js" hidden>
-                <div id="ed_js" class="editor"></div>
+                <textarea id="ed_js" class="editor" placeholder="JavaScript code goes here..."></textarea>
             </div>
         </div>
 
