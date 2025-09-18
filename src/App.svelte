@@ -33,44 +33,6 @@
      MAIN CONTENT
      ========================================================================== -->
 <main>
-    <aside class="sidebar">
-        <div class="card stack">
-            <h2 class="card-header">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5L15.5 3Z"></path><path d="M15 3v6h6"></path></svg>
-                Task/Assignment
-            </h2>
-            <textarea id="assignment" class="text-input" placeholder="Describe the task for the student..."></textarea>
-        </div>
-
-        <div class="card stack">
-            <label for="validationTest" class="card-header">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path><polyline points="14 2 14 8 20 8"></polyline><path d="m10 14-2 2 2 2"></path><path d="m14 18 2-2-2-2"></path></svg>
-                Validation Test (JS)
-            </label>
-            <textarea id="validationTest" class="text-input" placeholder="Write tests to run against the solution..."></textarea>
-            <div class="tip">
-                Tip: <kbd class="kbd">Ctrl</kbd> + <kbd class="kbd">S</kbd> to save, <kbd class="kbd">Ctrl</kbd> + <kbd class="kbd">Enter</kbd> to run.
-            </div>
-        </div>
-
-        <div class="card stack">
-            <div class="row space-between">
-                <h2 class="card-header">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
-                    Output
-                </h2>
-                <button class="btn btn-icon" title="Clear Output">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 4H8l-7 8 7 8h13a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z"></path><line x1="18" y1="9" x2="12" y2="15"></line><line x1="12" y1="9" x2="18" y2="15"></line></svg>
-                </button>
-            </div>
-            <div id="output" class="output-log" aria-live="polite"></div>
-            <button class="btn btn-accent">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="m9 12 2 2 4-4"></path></svg>
-                <span>Run with Tests</span>
-            </button>
-        </div>
-    </aside>
-
     <section class="main-content">
         <div class="editor-panel">
             <div class="editor-header">
@@ -111,7 +73,42 @@
                 <iframe id="preview" class="preview-frame" sandbox="allow-scripts allow-same-origin allow-modals allow-forms"></iframe>
             </div>
         </div>
-
-        <footer class="footer">&copy;2025 IAFahim - All rights reserved.</footer>
     </section>
+    <aside class="sidebar">
+        <div class="card stack">
+            <h2 class="card-header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5L15.5 3Z"></path><path d="M15 3v6h6"></path></svg>
+                Task/Assignment
+            </h2>
+            <textarea id="assignment" class="text-input" placeholder="Describe the task for the student..."></textarea>
+        </div>
+
+        <div class="card stack">
+            <label for="validationTest" class="card-header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path><polyline points="14 2 14 8 20 8"></polyline><path d="m10 14-2 2 2 2"></path><path d="m14 18 2-2-2-2"></path></svg>
+                Validation Test (JS)
+            </label>
+            <textarea id="validationTest" class="text-input" placeholder="Write tests to run against the solution..."></textarea>
+            <div class="tip">
+                Tip: <kbd class="kbd">Ctrl</kbd> + <kbd class="kbd">S</kbd> to save, <kbd class="kbd">Ctrl</kbd> + <kbd class="kbd">Enter</kbd> to run.
+            </div>
+        </div>
+
+        <div class="card stack">
+            <div class="row space-between">
+                <h2 class="card-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+                    Output
+                </h2>
+                <button class="btn btn-icon" title="Clear Output">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 4H8l-7 8 7 8h13a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z"></path><line x1="18" y1="9" x2="12" y2="15"></line><line x1="12" y1="9" x2="18" y2="15"></line></svg>
+                </button>
+            </div>
+            <div id="output" class="output-log" aria-live="polite"></div>
+            <button class="btn btn-accent">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                <span>Run with Tests</span>
+            </button>
+        </div>
+    </aside>
 </main>
