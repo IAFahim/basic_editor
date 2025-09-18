@@ -1,6 +1,5 @@
-<!-- The <script> tag remains the same -->
 <script lang="ts">
-    console.log("alert")
+    import ThemeSwitch from "./lib/ThemeSwitch.svelte";
 </script>
 
 <!-- ==========================================================================
@@ -26,6 +25,7 @@
             <span>Load</span>
         </button>
         <input id="openFile" type="file" accept="application/json" hidden>
+        <ThemeSwitch />
     </div>
 </header>
 
