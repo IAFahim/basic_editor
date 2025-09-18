@@ -25,9 +25,9 @@
     // Apply the theme to the body
     function applyTheme() {
         if (isDarkMode) {
-            document.body.dataset.theme = "dark";
+            document.documentElement.dataset.theme = "dark";
         } else {
-            document.body.dataset.theme = "light";
+            document.documentElement.dataset.theme = "light";
         }
     }
 </script>
@@ -53,9 +53,3 @@
         </svg>
     {/if}
 </button>
-
-<style>
-    .theme-toggle {
-        /* Add any specific styling for the button if needed */
-    }
-</style>

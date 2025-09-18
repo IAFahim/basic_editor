@@ -13,7 +13,7 @@
             <path d="M2 17L12 22L22 17" stroke="var(--color-accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M2 12L12 17L22 12" stroke="var(--color-accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
-        <h1>Verdant Editor</h1>
+        <h1>Web Editor</h1>
     </a>
     <div class="row">
         <button id="saveBtn" class="btn btn-secondary" title="Save work locally">
@@ -91,7 +91,6 @@
                 </div>
             </div>
 
-            <!-- The actual editor instances will be mounted here -->
             <div class="editor-container" data-pane="html">
                 <div id="ed_html" class="editor"></div>
             </div>
